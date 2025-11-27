@@ -1,0 +1,10 @@
+# Commandes à exécuter après avoir créé le repo sur GitHub
+
+# 1. Ajoutez le remote GitHub (remplacez VOTRE_USERNAME par votre nom d'utilisateur GitHub)
+git remote add origin https://github.com/VOTRE_USERNAME/HoyoClaude.git
+
+# 2. Renommez la branche en main (convention GitHub)
+git branch -M main
+
+# 3. Poussez le code vers GitHub
+git push -u origin main

@@ -2,10 +2,6 @@
 Config/dev.ini
 Config/prod.ini
 
-# Logs
-logs/
-*.log
-
 # IDE
 .vscode/
 .idea/
@@ -15,9 +11,6 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
-
-# Vendor (si vous utilisez Composer plus tard)
-/vendor/
 
 # Fichiers temporaires
 *.tmp

@@ -3,7 +3,10 @@
     "allow": [
       "Bash(mkdir:*)",
       "Bash(powershell:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(winget install:*)",
+      "Bash(where php)",
+      "Bash(test:*)"
     ],
     "deny": [],
     "ask": []
