@@ -10,7 +10,7 @@
     <div class="row">
         <?php foreach ($personnages as $perso): ?>
             <div class="col s12 m6 l4">
-                <div class="card">
+                <div class="card character-card" data-element="<?= $perso->getElement() ? strtolower($this->e($perso->getElement()->getName())) : 'none' ?>" data-rarity="<?= $this->e($perso->getRarity()) ?>">
                     <div class="card-image">
                         <img src="<?= $this->e($perso->getUrlImg()) ?>" alt="<?= $this->e($perso->getName()) ?>" style="height: 300px; object-fit: cover;">
                         <span class="card-title" style="background: rgba(0,0,0,0.5); width: 100%; padding: 10px;">

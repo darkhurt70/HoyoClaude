@@ -6,7 +6,10 @@
       "Bash(git add:*)",
       "Bash(winget install:*)",
       "Bash(where php)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nUpdate .gitignore and add missing files\n\n- Removed logs/ and vendor/ from .gitignore to include in repository\n- Added start-server.bat for easy server launch\n- Added phpinfo.php for PHP configuration checking\n- Included Plates vendor library (v3.5.0)\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(\"C:\\Users\\User\\Desktop\\Claude\\php 8.4.13\\php.exe\" -m)"
     ],
     "deny": [],
     "ask": []
